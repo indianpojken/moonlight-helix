@@ -40,7 +40,7 @@
 "type.builtin" = { fg = "orange" }
 "type.parameter" = { fg = "yellow" }
 
-"special " = { fg = "orange" }
+"special" = { fg = "orange" }
 
 "constant" = { fg = "orange" }
 "constant.character" = { fg = "cyan" }
