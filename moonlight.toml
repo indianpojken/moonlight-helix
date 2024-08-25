@@ -26,7 +26,26 @@
 "ui.popup" = { bg = "gray2" }
 "ui.popup.info" = {bg = "gray2", fg = "blue" }
 
-"ui.cursor.match" = { underline = { style = "line" } }
+"ui.cursor.match" = { underline = { color = "gray10", style = "line" } }
+
+"ui.statusline.normal" = { bg = "blue", fg = "gray2" }
+"ui.statusline.insert" = { bg = "red", fg = "gray2" }
+"ui.statusline.select" = { bg = "green", fg = "gray2" }
+
+"ui.virtual.indent-guide" = { fg = "gray6" }
+
+"diagnostic" = { underline = { color = "red", style = "curl" }, modifiers = ["dim"] }
+"diagnostic.hint" = { underline = { color = "gray10", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+"warning" = { fg = "yellow" }
+"error" = { fg = "red" }
+"info" = { fg = "blue" }
+"hint" = { fg = "gray10" }
 
 "attribute" = { fg = "red" }
 "tag" = { fg = "red" }
@@ -53,22 +72,22 @@
 "constructor" = { fg = "yellow" }
 
 "punctuation" = { fg = "cyan" }
-"punctuation.bracket" = { fg = "cyan" }
+"punctuation.bracket" = { fg = "gray7" }
+"punctuation.special" = { fg = "cyan" }
 
-"keyword" = { fg = "purple" }
+"keyword" = { fg = "cyan" }
+"keyword.operator" = { fg = "cyan" }
+"keyword.function" = { fg = "purple" }
 "keyword.control" = { fg = "cyan" }
 "keyword.storage" = { fg = "purple" }
+"keyword.control.import" = { fg = "cyan" }
 
 "function" = { fg = "blue" }
 "operator" = { fg = "cyan" }
 
-"diff.plus" = { bg = "green" }
-"diff.minus" = { bg = "red" }
-"diff.delta" = { bg = "sky" }
-
-"ui.statusline.normal" = { bg = "blue", fg = "gray2" }
-"ui.statusline.insert" = { bg = "red", fg = "gray2" }
-"ui.statusline.select" = { bg = "green", fg = "gray2" }
+"diff.plus" = { fg = "green" }
+"diff.minus" = { fg = "red" }
+"diff.delta" = { fg = "blue" }
 
 [palette]
 lightRed = "#ff98a4"
