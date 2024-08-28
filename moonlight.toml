@@ -7,7 +7,9 @@
 
 "ui.selection" = { bg = "gray6" }
 
-"ui.cursor" = { fg = "blue", modifiers = ["reversed"] }
+"ui.cursor" = { fg = "gray7", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "blue", modifiers = ["reversed"] }
+"ui.cursor.match" = { underline = { color = "gray10", style = "line" } }
 
 "ui.linenr" = { fg = "gray6" }
 "ui.linenr.selected" = { fg = "gray7" }
@@ -26,13 +28,12 @@
 "ui.popup" = { bg = "gray2" }
 "ui.popup.info" = {bg = "gray2", fg = "blue" }
 
-"ui.cursor.match" = { underline = { color = "gray10", style = "line" } }
-
 "ui.statusline.normal" = { bg = "blue", fg = "gray2" }
 "ui.statusline.insert" = { bg = "red", fg = "gray2" }
 "ui.statusline.select" = { bg = "green", fg = "gray2" }
 
 "ui.virtual.indent-guide" = { fg = "gray6" }
+"ui.virtual.inlay-hint" = { fg = "saturatedGray" }
 
 "diagnostic" = { underline = { color = "red", style = "curl" }, modifiers = ["dim"] }
 "diagnostic.hint" = { underline = { color = "gray10", style = "curl" } }
