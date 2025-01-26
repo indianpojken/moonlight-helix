@@ -55,6 +55,7 @@
 "variable.builtin" = { fg = "yellow" }
 "variable.parameter" = { fg = "pink" }
 "variable.other" = { fg = "gray10" }
+"variable.other.member" = { fg = "purple" }
 
 "type" = { fg = "yellow" }
 "type.builtin" = { fg = "orange" }
