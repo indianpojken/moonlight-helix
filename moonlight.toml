@@ -4,6 +4,7 @@
 "ui.text.info" = { fg = "gray10" }
 "ui.text.focus" = { fg = "blue" }
 "ui.text.inactive" = { fg = "gray7" }
+"ui.text.directory" = { fg = "gray7" }
 
 "ui.selection" = { bg = "gray6" }
 
@@ -20,7 +21,7 @@
 "ui.window" = { fg = "gray2" }
 "ui.help" = { bg = "gray2" }
 
-"ui.virtual.jump-label" = { fg = "orange" }
+"ui.virtual.jump-label" = { fg = "darkOrange" }
 
 "ui.menu" = { bg = "gray2" }
 "ui.menu.selected" = { bg = "gray6" }
@@ -34,6 +35,7 @@
 
 "ui.virtual.indent-guide" = { fg = "gray6" }
 "ui.virtual.inlay-hint" = { fg = "saturatedGray" }
+"ui.virtual.whitespace" = { fg = "gray7" }
 
 "diagnostic" = { underline = { color = "red", style = "curl" }, modifiers = ["dim"] }
 "diagnostic.hint" = { underline = { color = "gray10", style = "curl" } }
