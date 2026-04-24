@@ -10,7 +10,7 @@
 
 "ui.cursor" = { fg = "gray7", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "blue", modifiers = ["reversed"] }
-"ui.cursor.match" = { underline = { color = "gray10", style = "line" } }
+"ui.cursor.match" = { bg = "gray6", fg = "gray8", underline = { color = "gray10", style = "line" } }
 
 "ui.linenr" = { fg = "gray6" }
 "ui.linenr.selected" = { fg = "gray7" }
